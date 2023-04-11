@@ -26,7 +26,7 @@ with open('users.csv', mode='w', newline='') as csv_file:
         time.sleep(0.1)
 
 print('Dataset created successfully!')
-with open('user_ratings.csv', mode='w', newline='') as csv_file:
+with open('data/user_ratings.csv', mode='w', newline='') as csv_file:
     writer = csv.writer(csv_file)
     writer.writerow(rating_head)
     # Write each data row
